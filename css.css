@@ -1,0 +1,55 @@
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  ul {
+  list-style: none ;
+  padding: 2px;
+  }
+  .bg-primary {
+    background-color: #396eff !important;  
+  }
+  .bg-light {
+      background-color: #eaf6fe !important ;
+  }
+  .text-primary{
+      color: #396eff !important;
+     
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+  }
+  body {
+    font-family: "Poppins", sans-serif;  
+  }
+  .text-success {
+      color: #00d153;
+  }
+  .text-warning {
+     color: #ffe605; 
+  }
+  .text-danger{
+      color:#d10000 ;
+  }
+  .btn-success {
+background-color: #ebebed !important;
+border-color: #ebebed !important;
+color: black !important;
+  }
+  .btn-success:hover {
+    background-color: #00d153 !important;
+    border-color: #00d153 !important;
+    color: white;
+  }
+  
+  @media (min-width: 768px){
+      .position-legend {
+          margin-top: 1.25rem;
+      }
+      @media (max-width: 769px){
+        .position-legend {
+            margin-top: -1.25rem;
+        }
+  }
+  
+ 
